@@ -5,7 +5,8 @@ angular.module 'angularJwtApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'angularLocalStorage'
 ]
 .config ($stateProvider, $urlRouterProvider, $locationProvider) ->
   $urlRouterProvider
